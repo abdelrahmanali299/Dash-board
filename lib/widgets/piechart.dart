@@ -25,7 +25,7 @@ class _PiechartState extends State<Piechart> {
         ),
         sections: [
           PieChartSectionData(
-            titlePositionPercentageOffset: 1,
+            titlePositionPercentageOffset: 0.5,
             title: currentTouchedIndex == 0 ? 'dsfsadfsdf' : null,
             radius: currentTouchedIndex == 0 ? 50 : 40,
             value: 40,

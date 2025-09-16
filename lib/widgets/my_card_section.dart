@@ -40,6 +40,7 @@ class _MyCardSectionState extends State<MyCardSection> {
           Divider(),
           TransSection(),
           width >= 1000 ? Expanded(child: IncomeSection()) : IncomeSection(),
+          SizedBox(height: 10),
         ],
       ),
     );
